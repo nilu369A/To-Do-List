@@ -1,0 +1,105 @@
+/* Set default font and background styles for the body */
+body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Style the title */
+      .title {
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        margin: 0;
+        padding: 20px 0;
+        background-color: #333;
+        text-align: center;
+      }
+      
+      /* Style the main to-do input container */
+      .todo-input-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+      
+      /* Style the to-do input fields */
+      .js-name-input, .js-due-date-input {
+        font-size: 18px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+      
+      .js-due-date-input::-webkit-calendar-picker-indicator {
+        filter: invert(1);
+      }
+      
+      .add-todo-button {
+        font-size: 18px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+      
+      /* Style the to-do list container */
+      .js-todo-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+      
+      /* Style the to-do items */
+      .todo-item {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+      
+      .todo-name {
+        font-size: 18px;
+      }
+      
+      .todo-date {
+        font-size: 16px;
+        color: #999;
+      }
+      
+      .delete-todo-button {
+        font-size: 16px;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #f44336;
+        color: #fff;
+        cursor: pointer;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+      
